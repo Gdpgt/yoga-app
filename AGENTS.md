@@ -121,6 +121,12 @@ appliqué au code ni à la config lors du bootstrap.
   réponses du back (DTO, collection Postman) ; l'intégration réelle du back est
   prouvée par les tests d'intégration Spring Boot / Testcontainers ; choix
   expliqué dans le README. [BRIEF↔CODE]
+- **A11** (2026-11-16) Défauts du starter front hors consignes → **corrigés**
+  pendant l'étape 2, dans un commit `fix(front)` séparé : `UnauthGuard`
+  redirige vers `rentals` (route inexistante → 404), titre « Rentals
+  available », bouton de suppression de compte libellé « Detail »,
+  `Validators.min`/`max` (valeur numérique) au lieu de `minLength`/`maxLength`
+  dans login et register (longueurs alignées sur `SignupRequest`). [CODE]
 
 Divergences ouvertes : aucune.
 

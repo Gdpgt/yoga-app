@@ -13,7 +13,7 @@
 
 - [x] Projet téléchargé et importé dans l'IDE (déclaré le 2026-11-03)
 - [x] Outils et technologies nécessaires installés
-- [ ] Code existant parcouru (structure front et back comprise)
+- [x] Code existant parcouru (structure front et back comprise) (déclaré le 2026-11-16)
 - [x] Front et back lancés (Docker / CLI), fonctionnement initial vérifié (déclaré le 2026-11-03)
 - [x] [DÉCISION A9] JDK 21 installé via SDKMAN + wrapper `mvnw` généré dans `back/` (déclaré le 2026-11-03)
 
@@ -23,6 +23,7 @@
 - [ ] Toutes les méthodes typées (type de retour précis ou `void`)
 - [ ] Tous les types `any` supprimés
 - [ ] `*ngIf` / `*ngFor` remplacés par `@if` / `@for`
+- [ ] [DÉCISION A11] Défauts du starter corrigés (guard `rentals`, titre « Rentals », bouton « Detail », `Validators.min/max` → `minLength/maxLength`)
 - [ ] Chaque modification testée au fil de l'eau (pas de régression)
 - [ ] Build OK avec `ng serve`
 - [ ] Commits atomiques aux messages clairs
